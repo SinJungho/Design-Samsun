@@ -1,0 +1,56 @@
+.header{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__wrap{
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+}
+
+.header__wrap ul{
+  list-style: none;
+}
+
+.header__logo {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 1.28rem;
+  color: #000;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+}
+
+.header__item ul{
+  display: flex;
+  margin: 0;
+}
+
+.header__item ul a{
+  text-decoration: none;
+  color: #000;
+}
+
+.header__item ul li{
+  padding-right: 29px;
+}
+
+.header__rolling__item ul{
+  font-size: 1.15rem;
+}
+
+.header__rolling__item li{
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+}
+
+.header__icon{
+  display: flex;
+}
+
+.header__icon img{
+  width: 20px;
+}
+
+.header__icon a:first-child{
+  padding-right: 30px;
+}

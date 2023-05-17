@@ -2,9 +2,24 @@
   margin-top: 60px;
 }
 
+.content__main__banner h2{
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+}
+
 .content__main__banner video{
   width: 100%;
   height: 100%;
-  /* height: 656px; */
-  /* object-fit: cover; */
+}
+
+.content__main__banner__title{
+  width: 50%;
+  float: right;
+  position: relative;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+
+.content__main__banner__subText{
+  float: right;
+  position: absolute;
+  bottom: auto;
 }

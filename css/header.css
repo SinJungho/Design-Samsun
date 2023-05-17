@@ -33,6 +33,19 @@
 
 .header__item ul li{
   padding-right: 29px;
+  display:inline-block;
+}
+
+.header__item ul li:after {
+  display:block;
+  content: '';
+  border-bottom: solid 1px #000;  
+  transform: scaleX(0);  
+  transition: transform 300ms ease-in-out;
+}
+
+.header__item ul li:hover:after {
+  transform: scaleX(1); 
 }
 
 .header__rolling__item ul{

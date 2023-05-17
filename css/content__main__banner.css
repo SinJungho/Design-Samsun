@@ -11,6 +11,11 @@
   height: 100%;
 }
 
+.content__main__banner__text{
+  position: relative;
+  margin-top: 42px;
+}
+
 .content__main__banner__title{
   width: 50%;
   float: right;
@@ -19,7 +24,23 @@
 }
 
 .content__main__banner__subText{
-  float: right;
+  display: inline-flex;
   position: absolute;
-  bottom: auto;
+  bottom: -116px;
+  right: 430px;
+  align-items: center;
+  font-size: 12px;
+}
+
+.content__main__banner__subText span:nth-child(2){
+  margin: 6px 0;
+}
+
+.content__main__banner__subText span:nth-child(2)::after{
+  content: "";
+  display: inline-block;
+  margin-top: 5px;
+  width: 0.8px;
+  height: 15px;
+  background-color: #000;
 }

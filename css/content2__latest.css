@@ -1,0 +1,127 @@
+.content2__latest{
+  margin-top: 280px;
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-size: 32px;
+}
+
+.content2__latest > span{
+  margin-bottom: 28px;
+  display: block;
+}
+
+.content2__latest__cardNews{
+  /* width: 50%; */
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content2__latest__cardNews__biggest img{
+  width: 100%;
+  height: 100%;
+}
+
+.content2__latest__cardNews__biggest__text__title{
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  font-size: 30px;
+  margin-top: 43px;
+}
+
+.content2__latest__cardNews__biggest__text__subtitle{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.content2__latest__cardNews__biggest__text__discription{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.content2__latest__cardNews__biggest__text__subDate{
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.content2__latest__cardNews__biggest__text__subDate > span{
+  margin-top: 4px;
+}
+
+.content2__latest__cardNews__biggest__text__subDate span:nth-child(2){
+  margin: 0 6px;
+}
+
+.content2__latest__cardNews__biggest__text__subDate span:nth-child(2)::after{
+  content: "";
+  display: inline-block;
+  margin-top: 7px;
+  width: 0.8px;
+  height: 15px;
+  background-color: #000;
+}
+
+.content2__latest__cardNews__middle{
+  width: 145%;
+}
+
+.content2__latest__cardNews__middle__wrap{
+  display: flex;
+  /* margin-left: 20px; */
+  justify-content: space-evenly;
+}
+
+.content2__latest__cardNews__middle__img{
+  width: 45%;
+  height: 50%;
+}
+
+.content2__latest__cardNews__middle__text{
+  margin-left: 45px;
+  margin-top: 45px;
+}
+
+.content2__latest__cardNews__middle__text__title{
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  font-size: 32px;
+  /* margin-top: 43px; */
+  width: 35%;
+}
+
+.content2__latest__cardNews__middle__text__subtitle{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  margin-bottom: 24px;
+}
+
+.content2__latest__cardNews__middle__text__discription{
+  font-family: 'Noto Sans KR', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+
+.content2__latest__cardNews__middle__text__subDate{
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.content2__latest__cardNews__middle__text__subDate > span{
+  margin-top: 4px;
+}
+
+.content2__latest__cardNews__middle__text__subDate span:nth-child(2){
+  margin: 0 6px;
+}
+
+.content2__latest__cardNews__middle__text__subDate span:nth-child(2)::after{
+  content: "";
+  display: inline-block;
+  margin-top: 7px;
+  width: 0.8px;
+  height: 15px;
+  background-color: #000;
+}

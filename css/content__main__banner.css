@@ -23,7 +23,7 @@
   font-family: 'Noto Sans KR', sans-serif;
 }
 
-.content__main__banner__subText{
+.content__main__banner__subDate{
   display: inline-flex;
   position: absolute;
   bottom: -116px;
@@ -31,12 +31,12 @@
   align-items: center;
   font-size: 12px;
 }
-
-.content__main__banner__subText span:nth-child(2){
-  margin: 6px 0;
+/* border right line */
+.content__main__banner__subDate span:nth-child(2){
+  margin: 0 6px;
 }
 
-.content__main__banner__subText span:nth-child(2)::after{
+.content__main__banner__subDate span:nth-child(2)::after{
   content: "";
   display: inline-block;
   margin-top: 5px;

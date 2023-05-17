@@ -2,8 +2,10 @@
 @import url(css/rolling__text.css);
 @import url(css/header.css);
 @import url(css/content__main__banner.css);
+@import url(css/content2__latest.css);
 /* font-family: 'Samsung Sharp Sans Bold', sans-serif; 
-font-family: 'Samsung Sharp Sans Regular', sans-serif;*/
+font-family: 'Samsung Sharp Sans Regular', sans-serif;
+font-family: 'Noto Sans KR', sans-serif; */
 
 body{
   padding-top: 34px;
@@ -12,6 +14,11 @@ body{
   margin: 0;
   font-weight: bold;
   font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  height: 9000px;
+}
+
+.border__bottomLine{
+  border-bottom: 0.8px solid #000;
 }
 
 

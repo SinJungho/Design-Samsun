@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sticky Scroll Event</title>
+  <style>
+    #sticky-element {
+      position: relative;
+      top: 0;
+    }
+
+    .content {
+      height: 1000px;
+      padding: 20px;
+    }
+
+    .sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #f5f5f5;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sticky Scroll Event</h1>
+
+  <div class="content">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget eleifend metus. Nullam fermentum dolor id sagittis consequat. Aliquam varius risus id felis laoreet, id sagittis velit sagittis. Nulla facilisi. Etiam ultrices, felis eu dapibus gravida, odio metus mattis ex, vitae ultrices lectus dui sit amet nisl. Fusce non lectus in mauris consequat fermentum. Ut at ligula sed ligula placerat feugiat sed a diam.</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget eleifend metus. Nullam fermentum dolor id sagittis consequat. Aliquam varius risus id felis laoreet, id sagittis velit sagittis. Nulla facilisi. Etiam ultrices, felis eu dapibus gravida, odio metus mattis ex, vitae ultrices lectus dui sit amet nisl. Fusce non lectus in mauris consequat fermentum. Ut at ligula sed ligula placerat feugiat sed a diam.</p>
+    <div id="sticky-element">
+      <p>This element will become sticky on scroll</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget eleifend metus. Nullam fermentum dolor id sagittis consequat. Aliquam varius risus id felis laoreet, id sagittis velit sagittis. Nulla facilisi. Etiam ultrices, felis eu dapibus gravida, odio metus mattis ex, vitae ultrices lectus dui sit amet nisl. Fusce non lectus in mauris consequat fermentum. Ut at ligula sed ligula placerat feugiat sed a diam.</p>
+    <div id="sticky-element">
+      <p>This element will become sticky on scroll</p>
+    </div><div id="sticky-element">
+      <p>This element will become sticky on scroll</p>
+    </div>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque eget eleifend metus. Nullam fermentum dolor id sagittis consequat. Aliquam varius risus id felis laoreet, id sagittis velit sagittis. Nulla facilisi. Etiam ultrices, felis eu dapibus gravida, odio metus mattis ex, vitae ultrices lectus dui sit amet nisl. Fusce non lectus in mauris consequat fermentum. Ut at ligula sed ligula placerat feugiat sed a diam.</p>
+  </div>
+
+  <script>
+    var stickyElement = document.getElementById("sticky-element");
+    var stickyOffset = stickyElement.offsetTop;
+
+    function handleScroll() {
+      if (window.pageYOffset >= stickyOffset) {
+        stickyElement.classList.add("sticky");
+      } else {
+        stickyElement.classList.remove("sticky");
+      }
+    }
+
+    window.addEventListener("scroll", handleScroll);
+  </script>
+</body>
+</html>

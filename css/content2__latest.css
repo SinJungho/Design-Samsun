@@ -64,12 +64,12 @@
 }
 
 .content2__latest__cardNews__middle{
-  width: 145%;
+  /* width: 145%; */
 }
 
 .content2__latest__cardNews__middle__wrap{
   display: flex;
-  /* margin-left: 20px; */
+  margin-left: 29px;
   justify-content: space-evenly;
 }
 
@@ -79,15 +79,17 @@
 }
 
 .content2__latest__cardNews__middle__text{
-  margin-left: 45px;
-  margin-top: 45px;
+  /* margin-left: 45px;
+  margin-top: 45px; */
+  display: flex;
+  flex-direction: column;
 }
 
 .content2__latest__cardNews__middle__text__title{
   font-family: 'Samsung Sharp Sans Bold', sans-serif;
   font-size: 32px;
   /* margin-top: 43px; */
-  width: 35%;
+  width: 70%;
 }
 
 .content2__latest__cardNews__middle__text__subtitle{
@@ -100,6 +102,7 @@
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 16px;
   line-height: 32px;
+  margin-left: 39px;
 }
 
 .content2__latest__cardNews__middle__text__subDate{
@@ -107,6 +110,7 @@
   display: flex;
   align-items: center;
   margin-top: 10px;
+  margin-left: 39px;
 }
 
 .content2__latest__cardNews__middle__text__subDate > span{

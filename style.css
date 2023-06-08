@@ -21,5 +21,9 @@ body{
   border-bottom: 0.8px solid #000;
 }
 
+.hidden {
+  display: none;
+}
+
 
 

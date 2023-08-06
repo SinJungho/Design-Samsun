@@ -3,15 +3,18 @@
 @import url(css/header.css);
 @import url(css/content__main__banner.css);
 @import url(css/content2__latest.css);
+@import url(css/content3.css);
+@import url(css/content4.css);
 /* font-family: 'Samsung Sharp Sans Bold', sans-serif; 
 font-family: 'Samsung Sharp Sans Regular', sans-serif;
 font-family: 'Noto Sans KR', sans-serif; */
 
 body{
-  padding-top: 34px;
-  padding-right: 51px;
-  padding-left: 51px;
-  margin: 0;
+
+}
+
+.container{
+  padding: 0px;
   font-weight: bold;
   font-family: 'Samsung Sharp Sans Regular', sans-serif;
   height: 9000px;
@@ -23,6 +26,7 @@ body{
 
 .hidden {
   display: none;
+  margin: 0;
 }
 
 

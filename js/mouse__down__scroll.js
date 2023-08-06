@@ -8,12 +8,13 @@ function showNextElement() {
   }
 }
 
-function deleteElement(params) {
-  if (currentIndex > 0) {
-    currentIndex--;
-    elements[currentIndex].classList.add("hidden");
-  }
-}
+// 요소 삭제 메서드
+// function deleteElement(params) {
+//   if (currentIndex > 0) {
+//     currentIndex--;
+//     elements[currentIndex].classList.add("hidden");
+//   }
+// }
 
 function handleMouseWheel(event) {
   var delta = Math.max(-1, Math.min(1, event.wheelDelta || -event.detail));

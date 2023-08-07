@@ -13,22 +13,35 @@
 .content4__moreStories__element{
   display: flex;
   padding-top: 30px;
+  flex-direction: column;
 }
+.content4__moreStroies__element__1stFloor{
+  padding-bottom: 36px;
+}
+
+.content4__moreStroies__element__1stFloor.content4__moreStroies__element__2stFloor{
+ display: flex;
+ flex-direction: column;
+}
+
 /* 1nd */
 .content4__moreStories__element__1nd{
   display: flex;
   flex-direction: column;
+  padding-right: 16px;
 }
 
 .content4__moreStories__element__1nd img{
-  /* width: 370px;
-  height: 207px; */
-  width: 100%;
+  width: 370px;
+  height: 207px;
+  /* width: 100%; */
+  /* padding-right: 28px; */
 }
 
 .content4__moreStories__element__1nd__title{
   font-size: 28px;
   font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
 }
 
 .content4__moreStories__element__1nd__text{
@@ -40,17 +53,19 @@
 .content4__moreStories__element__2nd{
   display: flex;
   flex-direction: column;
+  padding-right: 15px;
 }
 
 .content4__moreStories__element__2nd img{
-  /* width: 370px;
-  height: 207px; */
-  width: 50%;
+  width: 370px;
+  height: 207px;
+  /* width: 50%; */
 }
 
 .content4__moreStories__element__2nd__title{
   font-size: 28px;
   font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
 }
 
 .content4__moreStories__element__2nd__text{
@@ -65,17 +80,88 @@
 }
 
 .content4__moreStories__element__3nd img{
-  /* width: 370px;
-  height: 207px; */
-  width: 33%;
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
 }
 
 .content4__moreStories__element__3nd__title{
   font-size: 28px;
   font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
 }
 
 .content4__moreStories__element__3nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 4nd */
+.content4__moreStories__element__4nd{
+  display: flex;
+  flex-direction: column;
+  padding-right: 15px;
+}
+
+.content4__moreStories__element__4nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
+}
+
+.content4__moreStories__element__4nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content4__moreStories__element__4nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 5nd */
+.content4__moreStories__element__5nd{
+  display: flex;
+  flex-direction: column;
+}
+
+.content4__moreStories__element__5nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
+}
+
+.content4__moreStories__element__5nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content4__moreStories__element__5nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 6nd */
+.content4__moreStories__element__6nd{
+  display: flex;
+  flex-direction: column;
+}
+
+.content4__moreStories__element__6nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
+}
+
+.content4__moreStories__element__6nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content4__moreStories__element__6nd__text{
   font-family: 'Samsung Sharp Sans Regular', sans-serif;
   font-weight: 400;
   padding-top: 8px;

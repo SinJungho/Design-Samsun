@@ -179,13 +179,13 @@
   width: 2px;
   height: 60px; /* Adjust the height to your desired value */
   background-color: black;
-  /* position: relative; */
+  position: relative;
   
 }
 
 .content4__moreStories__moreBtn__line:hover {
   /* animation: disappear 4s ease-in-out; */
-  animation: disappear 4s infinite;
+  /* animation: disappear 4s infinite; */
 }
 
 @keyframes disappear {

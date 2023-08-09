@@ -1,21 +1,30 @@
 .content5__sortBy{
-  background-color: #ccc;
+  background-color: #f6f6f6;
 }
 
 .content5__sortBy__title{
-  font-family: 'Samsung Sharp Sans Regular', sans-serif;  
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
   font-size: 30px;
+  display: inline-block;
+  padding: 50px 0px 15px 40px;
+}
+
+.accordion{
+  --bs-accordion-bg: #f6f6f6; 
+  --bs-primary-text-emphasis: black !important;
+  --bs-primary-bg-subtle: transparent !important;
+  /*  */ 
+  --bs-accordion-btn-focus-box-shadow: transparent !important;
 }
 
 .content5__sortBy__accordion{
-  padding-top: 30px;
+  padding: 0 40px;
 }
 
 .accordion-item{
   border: 1px solid black;
   border-right: none;
-  border-left: none;
-  border-radius: 100%;
+  border-left: none
 }
 .accordion-item:focus{
   outline: none;

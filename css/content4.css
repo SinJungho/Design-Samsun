@@ -1,5 +1,6 @@
 .content4__moreStories{
   margin-top: 150px;
+  padding: 0 40px;
 }
 
 .content4__moreStories__title{
@@ -29,7 +30,7 @@
 .content4__moreStories__element__1nd{
   display: flex;
   flex-direction: column;
-  padding-right: 16px;
+  padding-right: 35px;
 }
 
 .content4__moreStories__element__1nd img{
@@ -54,7 +55,7 @@
 .content4__moreStories__element__2nd{
   display: flex;
   flex-direction: column;
-  padding-right: 15px;
+  padding-right: 38px;
 }
 
 .content4__moreStories__element__2nd img{
@@ -101,7 +102,7 @@
 .content4__moreStories__element__4nd{
   display: flex;
   flex-direction: column;
-  padding-right: 15px;
+  padding-right: 35px;
 }
 
 .content4__moreStories__element__4nd img{
@@ -125,6 +126,7 @@
 .content4__moreStories__element__5nd{
   display: flex;
   flex-direction: column;
+  padding-right: 25px;
 }
 
 .content4__moreStories__element__5nd img{

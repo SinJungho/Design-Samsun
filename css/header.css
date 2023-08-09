@@ -1,6 +1,11 @@
 .header{
   display: flex;
   justify-content: space-between;
+  padding: 20px 40px;
+  position: sticky;
+  top: 0px;
+  background-color: white;
+  z-index: 99;
 }
 
 .header__wrap{

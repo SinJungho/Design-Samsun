@@ -1,0 +1,204 @@
+.content6__News{
+  margin-top: 150px;
+  padding: 0 40px;
+}
+
+.content6__News__title{
+  font-size: 34px;
+}
+
+.content6__News__title > .border__bottomLine{
+  margin: 0;
+}
+
+.content6__News__element{
+  display: flex;
+  padding-top: 30px;
+  flex-direction: column;
+}
+.content4__moreStroies__element__1stFloor{
+  padding-bottom: 36px;
+  /* display: flex; */
+}
+
+.content4__moreStroies__element__1stFloor, .content4__moreStroies__element__2stFloor{
+ display: flex;
+ /* flex-direction: column; */
+}
+
+/* 1nd */
+.content6__News__element__1nd{
+  display: flex;
+  flex-direction: column;
+  padding-right: 35px;
+}
+
+.content6__News__element__1nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 100%; */
+  /* padding-right: 28px; */
+}
+
+.content6__News__element__1nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content6__News__element__1nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 2nd */
+.content6__News__element__2nd{
+  display: flex;
+  flex-direction: column;
+  padding-right: 38px;
+}
+
+.content6__News__element__2nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 50%; */
+}
+
+.content6__News__element__2nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content6__News__element__2nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 3nd */
+.content6__News__element__3nd{
+  display: flex;
+  flex-direction: column;
+}
+
+.content6__News__element__3nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
+}
+
+.content6__News__element__3nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content6__News__element__3nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 4nd */
+.content6__News__element__4nd{
+  display: flex;
+  flex-direction: column;
+  padding-right: 35px;
+}
+
+.content6__News__element__4nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
+}
+
+.content6__News__element__4nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content6__News__element__4nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 5nd */
+.content6__News__element__5nd{
+  display: flex;
+  flex-direction: column;
+  padding-right: 25px;
+}
+
+.content6__News__element__5nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
+}
+
+.content6__News__element__5nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content6__News__element__5nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* 6nd */
+.content6__News__element__6nd{
+  display: flex;
+  flex-direction: column;
+}
+
+.content6__News__element__6nd img{
+  width: 370px;
+  height: 207px;
+  /* width: 33%; */
+}
+
+.content6__News__element__6nd__title{
+  font-size: 28px;
+  font-family: 'Samsung Sharp Sans Bold', sans-serif;
+  padding-top: 20px;
+}
+
+.content6__News__element__6nd__text{
+  font-family: 'Samsung Sharp Sans Regular', sans-serif;
+  font-weight: 400;
+  padding-top: 8px;
+}
+/* btn */
+.content6__News__moreBtn{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content6__News__moreBtn__line {
+  width: 2px;
+  height: 60px; /* Adjust the height to your desired value */
+  background-color: black;
+  position: relative;
+  
+}
+
+.content6__News__moreBtn__line:hover {
+  /* animation: disappear 4s ease-in-out; */
+  /* animation: disappear 4s infinite; */
+}
+
+@keyframes disappear {
+  0% {
+    height: 60px;
+  }
+  50%{
+    height: 0px;
+  }
+  100% {
+    height: 0px;
+  }
+}
+

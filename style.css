@@ -6,6 +6,7 @@
 @import url(css/content3.css);
 @import url(css/content4.css);
 @import url(css/content5.css);
+@import url(css/content6.css);
 /* font-family: 'Samsung Sharp Sans Bold', sans-serif; 
 font-family: 'Samsung Sharp Sans Regular', sans-serif;
 font-family: 'Noto Sans KR', sans-serif; */
@@ -18,7 +19,7 @@ body{
   padding: 0px;
   font-weight: bold;
   font-family: 'Samsung Sharp Sans Regular', sans-serif;
-  height: 9000px;
+  /* height: 9000px; */
 }
 
 .border__bottomLine{

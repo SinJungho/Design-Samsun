@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Dynamic Accordion Example</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <div class="accordion" id="dynamicAccordion">
+    <!-- 기존의 아코디언 아이템들 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          아코디언 아이템 1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#dynamicAccordion">
+        <div class="accordion-body">
+          내용 1
+        </div>
+      </div>
+    </div>
+    <!-- 추가되는 아코디언 아이템들 -->
+  </div>
+  <!-- 2 -->
+  <div class="accordion" id="dynamicAccordion">
+    <!-- 기존의 아코디언 아이템들 -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+          aria-expanded="true" aria-controls="collapseOne">
+          아코디언 아이템 1
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+        data-bs-parent="#dynamicAccordion">
+        <div class="accordion-body">
+          내용 1
+        </div>
+      </div>
+    </div>
+    <!-- 3 -->
+    <div class="accordion" id="dynamicAccordion">
+      <!-- 기존의 아코디언 아이템들 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            아코디언 아이템 1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#dynamicAccordion">
+          <div class="accordion-body">
+            내용 1
+          </div>
+        </div>
+      </div>
+      <!-- 추가되는 아코디언 아이템들 -->
+    </div>
+    <div class="accordion" id="dynamicAccordion">
+      <!-- 기존의 아코디언 아이템들 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            아코디언 아이템 1
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+          data-bs-parent="#dynamicAccordion">
+          <div class="accordion-body">
+            내용 1
+          </div>
+        </div>
+      </div>
+      <!-- 추가되는 아코디언 아이템들 -->
+    </div>
+    <div class="accordion" id="dynamicAccordion">
+      <!-- 기존의 아코디언 아이템들 -->
+      <div class="accordion-item">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+            aria-expanded="true" aria-controls="collapseOne">
+            아코디언 아이템 5
+          </button>
+        </h2>
+        <div id="collapseFive" class="accordion-collapse collapse show" aria-labelledby="headingFive"
+          data-bs-parent="#dynamicAccordion">
+          <div class="accordion-body">
+            내용 1
+          </div>
+        </div>
+      </div>
+      <!-- 추가되는 아코디언 아이템들 -->
+    </div>
+  </div>
+  <!-- <button id="addAccordionItem" class="btn btn-primary mt-3">아코디언 아이템 추가</button> -->
+
+  <script src="js/addAccordion.js"></script>
+</body>
+
+</html>

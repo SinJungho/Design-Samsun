@@ -7,7 +7,7 @@
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
   <style>
     @import url("https://cdn-uicons.flaticon.com/uicons-regular-rounded/css/uicons-regular-rounded.css");
-    .accordion-add{
+    #accordion-add{
     position: relative;
     display: flex;
     align-items: center;
@@ -22,35 +22,41 @@
     border-radius: 0;
     overflow-anchor: none;
     transition: var(--bs-accordion-transition);
+    --bs-accordion-transition: color 0.15s ease-in-out,background-color 0.15s ease-in-out,border-color 0.15s ease-in-out,box-shadow 0.15s ease-in-out,border-radius 0.15s ease;
     }
     .collapseFive{
-      border-right: none;
+    border-right: none;
     border-left: none;
     }
-    button:active{
-      background: url(./img/content5/up-arrow.png);
-      background-repeat: no-repeat;
-    }
+    
   </style>
 </head>
 <body>
-  <p class="d-inline-flex gap-1" style="width: 100%;">
-    <button class="btn btn-primary accordion-add"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  <div class="d-inline-flex gap-1" id="accordion " style="width: 100%;">
+    <button class="btn btn-primary" style="width: 100%;" id="accordion-add"  type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
       Accordion #4
-      <img class="arrow-up" src="img/content5/down-arrow.png" alt="" srcset="" style="width: 20px;">
+      <div class="accordion-arrow" id="">
+        <img class="arrow-down" id="" src="img/content5/down-arrow.png" alt="" srcset="" 
+        style="width: 20px;
+        display: inline;
+        position: absolute;
+        top: 7px;
+        right: 3px;">
+      </div>
     </button>
-    
-  </p>
+  </div>
   <div class="collapse collapseFive" id="collapseExample">
     <div class="card card-body">
       Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
     </div>
   </div>
+  <button id="chg-btn">change</button>
   <!--  -->
+  <script src="js/addAccordion.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
     crossorigin="anonymous"></script>
-    <script src="js/addAccordion.js"></script>
+
 </body>
 
 </html>
